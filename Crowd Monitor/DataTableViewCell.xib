@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataCell" rowHeight="88" id="KGk-i7-Jjw" customClass="DataTableViewCell" customModule="Crowd_Monitor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXA-GN-diS">
+                        <rect key="frame" x="30" y="10" width="260" height="60"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7o1-xB-HUm">
+                                <rect key="frame" x="10" y="10" width="150" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10-12pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zB-y1-LIg">
+                                        <rect key="frame" x="0.0" y="11" width="150" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="darkGreen"/>
+                                <constraints>
+                                    <constraint firstItem="6zB-y1-LIg" firstAttribute="leading" secondItem="7o1-xB-HUm" secondAttribute="leading" id="LeH-aM-05n"/>
+                                    <constraint firstItem="6zB-y1-LIg" firstAttribute="centerY" secondItem="7o1-xB-HUm" secondAttribute="centerY" id="MWY-D6-U09"/>
+                                    <constraint firstAttribute="width" constant="150" id="pgf-SA-Nes"/>
+                                    <constraint firstAttribute="trailing" secondItem="6zB-y1-LIg" secondAttribute="trailing" id="uxM-Qx-KY2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Es-Hb-rYD">
+                                <rect key="frame" x="160" y="19.5" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="lightGreen"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="appBrown"/>
+                        <constraints>
+                            <constraint firstItem="7o1-xB-HUm" firstAttribute="leading" secondItem="sXA-GN-diS" secondAttribute="leading" constant="10" id="9PO-5X-pru"/>
+                            <constraint firstAttribute="height" constant="60" id="HPa-2H-e4h"/>
+                            <constraint firstItem="1Es-Hb-rYD" firstAttribute="leading" secondItem="7o1-xB-HUm" secondAttribute="trailing" id="Q8w-1m-7et"/>
+                            <constraint firstAttribute="trailing" secondItem="1Es-Hb-rYD" secondAttribute="trailing" id="gxw-38-m6c"/>
+                            <constraint firstItem="1Es-Hb-rYD" firstAttribute="centerY" secondItem="sXA-GN-diS" secondAttribute="centerY" id="iCT-Mv-ReG"/>
+                            <constraint firstAttribute="bottom" secondItem="7o1-xB-HUm" secondAttribute="bottom" constant="10" id="xA7-Qc-nZ1"/>
+                            <constraint firstItem="7o1-xB-HUm" firstAttribute="top" secondItem="sXA-GN-diS" secondAttribute="top" constant="10" id="yh5-DI-wn4"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sXA-GN-diS" secondAttribute="bottom" constant="10" id="Hcj-wO-QJl"/>
+                    <constraint firstItem="sXA-GN-diS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="KNI-n2-Ibh"/>
+                    <constraint firstItem="sXA-GN-diS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hpG-9m-esn"/>
+                    <constraint firstAttribute="trailing" secondItem="sXA-GN-diS" secondAttribute="trailing" constant="30" id="lBo-n6-Itb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="countLabel" destination="1Es-Hb-rYD" id="yAy-rr-lHV"/>
+                <outlet property="timeLabel" destination="6zB-y1-LIg" id="8Le-2h-Gem"/>
+            </connections>
+            <point key="canvasLocation" x="31.884057971014496" y="86.383928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="appBrown">
+            <color red="0.25099998712539673" green="0.22400000691413879" blue="0.28999999165534973" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="darkGreen">
+            <color red="0.49399998784065247" green="0.79199999570846558" blue="0.6119999885559082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightGreen">
+            <color red="0.80000001192092896" green="1" blue="0.74099999666213989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
