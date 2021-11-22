@@ -1,6 +1,0 @@
-framework module Pods_Crowd_Monitor {
-  umbrella header "Pods-Crowd Monitor-umbrella.h"
-
-  export *
-  module * { export * }
-}
