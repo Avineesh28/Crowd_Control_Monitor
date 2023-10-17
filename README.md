@@ -1,2 +1,21 @@
-# Crowd_Control_Monitor
-With the rise in the number of Covid-19 cases over the world, social distancing has become an important safety measure. It is advised to stay at a distance of at least 6 feet from other people to reduce the spread of the virus. However, it is very difficult to maintain social distancing in public places like malls and stores due to the large crowd present in an enclosed area. Manually separating people or counting the number of visitors is tedious and very inefficient. Hence, there is a need to fulfill the above role without engaging manpower in it. The primary aim of our project is to solve the above problem by counting people in a store or mall in real-time and alerting the authorities if the maximum limit is reached. We plan to tackle the above-mentioned problem using Computer Vision. The CCTV Camera feed will be retrieved in real-time and will be passed through our model. It will detect the number of people entering and leaving an area and the data will be stored.. The camera feed can be directly retrieved from the CCTV cameras already installed in the stores. Hence, this solution has a negligible hardware cost.This project can be scaled for larger regions and areas too. The real-time stream can also be optimized for better performance using threading. Schedulers and timers also make the work of shopkeepers easy. This acts as a measure towards footfall analysis and in a way to tackle COVID-19..
+**Crowd Control Monitor**
+
+In response to the increasing number of Covid-19 cases globally, maintaining social distancing has emerged as a critical safety measure. The recommended minimum distance of 6 feet between individuals is challenging to enforce in crowded public places such as malls and stores. Traditional methods of manual crowd management or visitor counting are labor-intensive and inefficient. Addressing this challenge, our project aims to develop a solution using **Computer Vision technology** to automate crowd monitoring, enabling real-time counting of people in stores or malls.
+
+### Project Goals and Features:
+
+- **Real-Time Crowd Counting:** Utilizing CCTV camera feeds in real-time, our system employs *Computer Vision algorithms* to accurately count the number of people entering and leaving a designated area.
+
+- **Automated Alert System:** When the maximum allowed capacity is reached, the system automatically alerts the authorities, enabling timely intervention to maintain social distancing norms.
+
+- **Cost-Effective Solution:** Leveraging existing CCTV infrastructure in stores eliminates the need for substantial additional hardware investments, making the solution financially viable.
+
+- **Scalability:** The project design allows seamless scalability, enabling its application in larger regions and diverse public spaces beyond individual stores, contributing to community-wide safety efforts.
+
+- **Optimized Real-Time Stream:** Implementation of threading and optimization techniques ensures efficient processing of the real-time camera feed, enhancing system performance.
+
+- **User-Friendly Features:** Integrated schedulers and timers simplify management tasks for storekeepers, streamlining their responsibilities and enhancing operational efficiency.
+
+- **Footfall Analysis:** The collected data not only aids in social distancing enforcement but also provides valuable insights for footfall analysis, supporting business strategies and decision-making.
+
+By addressing the challenge of crowd management in public places, our project serves as a significant step towards mitigating the spread of Covid-19, ensuring public safety, and contributing to the overall well-being of communities.
