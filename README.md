@@ -1,6 +1,5 @@
 # Crowd Control Monitor Using Computer Vision
 
-
 ## Overview
 
 The **Crowd Control Monitor** is a computer vision–based system designed to automatically monitor and manage crowd density in public spaces such as malls, stores, and commercial buildings. Developed in response to the COVID-19 pandemic, the system enforces social distancing guidelines by **counting people in real time** and generating alerts when occupancy limits are exceeded.
